@@ -40,6 +40,7 @@ add_library(fsyncd
   src/fsyncd.c
   src/status.c
   src/slice.c
+  src/buffer.c
 )
 target_include_directories(fsyncd PUBLIC include)
 target_link_libraries(fsyncd PRIVATE fsyncd_flags)

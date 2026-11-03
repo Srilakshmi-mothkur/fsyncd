@@ -162,7 +162,7 @@ static void test_remove(void) {
 
 static void test_make_dir(void) {
     vfs_t *vfs = vfs_posix();
-    char db[256], path[256];
+    char db[128], path[256];
     snprintf(db, sizeof db, "%s/mydb", dir);
     snprintf(path, sizeof path, "%s/wal.log", db);
 

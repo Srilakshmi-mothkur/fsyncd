@@ -42,6 +42,7 @@ add_library(fsyncd
   src/slice.c
   src/buffer.c
   src/coding.c
+  src/crc32c.c
 )
 target_include_directories(fsyncd PUBLIC include)
 target_link_libraries(fsyncd PRIVATE fsyncd_flags)

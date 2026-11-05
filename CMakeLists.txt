@@ -44,6 +44,7 @@ add_library(fsyncd
   src/coding.c
   src/crc32c.c
   src/vfs_posix.c
+  src/skiplist.c
 )
 target_include_directories(fsyncd PUBLIC include)
 target_link_libraries(fsyncd PRIVATE fsyncd_flags)
